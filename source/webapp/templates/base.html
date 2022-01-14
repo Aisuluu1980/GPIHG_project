@@ -6,29 +6,59 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{% block title %}Shop{% endblock %}</title>
+    <title>{% block title %}GPIH Group{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     {% block styles %}{% endblock %}
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="{% url 'index' %}" class="nav-link">Home</a>
-            </li>
-            {% block menu %}{% endblock %}
-        </ul>
-    </div>
-</nav>
+<header>
+
+  <div class="wrap-logo">
+    <p class="logo"><i class="fa fa-envelope" aria-hidden="true"></i>  admin@globalpactholdings.com</p>
+ <!-- <a href="#logo" class="logo">Логотип сайта</a> -->
+  </div>
+  <nav>
+    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+  </nav>
+</header>
+
+
 <div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="static/logo.png" alt="" width="300" height="80">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link" aria-hidden="true" aria-current="page" href="#">HOME</a>
+        <a class="nav-link" aria-hidden="true" href="#">ABOUT US</a>
+        <a class="nav-link" aria-hidden="true" href="#">INDUSTRIES</a>
+        <a class="nav-link" aria-hidden="true" href="#">PROJECTS</a>
+        <a class="nav-link" aria-hidden="true" href="#">CLIENTS</a>
+        <a class="nav-link" aria-hidden="true" href="#">CONTACT US</a>
+      </div>
+    </div>
+    {% block menu %}{% endblock %}
+  </div>
+</nav>
+</div>
+
+
+
+<div class="container">
+{% block carousel %} {% endblock %}
     {% block content %}{% endblock %}
 </div>
+
 <script src="{% static 'js/jquery.min.js' %}"></script>
 <script src="{% static 'js/popper.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
