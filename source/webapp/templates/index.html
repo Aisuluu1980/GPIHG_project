@@ -29,11 +29,79 @@
 
         </div>
     </div>
-{% endblock %}
+{% endblock carousel %}
 
 
 {%block content%}
 
 <h1><span>Latest Projects</span></h1>
 
+<!--<div class="container pt-4">-->
+    <div class="row row-cols-1 row-cols-md-3 g-4 pt-4">
+        {% for project in projects %}
+        <div class="col col-3">
+    <h3 class="text-center p-4 font-weight-bold">{{project.name}}</h3>
+        <div class="card h-80">
+            {% if project.image %}
+                <img class="card-img h-50" src="{{ project.image.url }}" alt="{{project.name}}">
+            {% else %}
+                <img class="card-img" src="{% static 'no_foto.jpg' %}" alt="No foto!" />
+            {% endif %}
+        </div>
+        <div class="dnl text-center p-4">
+            <a href="#" class="btn btn_1 btn-lg"><i class="far fa-file-pdf"></i> Download brochure</a>
+        </div>
+    </div>
+        {% endfor %}
+</div>
+
 {% endblock %}
+
+
+{% block carouselnews %}
+<h2><span>Latest News</span></h2>
+  <div class="carousel-news pt-5">
+        <div id="carousel-news" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#main-carousel" data-slide-to="1"></li>
+                <li data-target="#main-carousel" data-slide-to="2"></li>
+                <li data-target="#main-carousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner_news">
+                <div class="carousel-item-news active">
+                    <img src="{% static 'background.jpg' %}" alt="">
+                    <div class="carousel-caption-news d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+                </div>
+                <div class="carousel-item-news">
+                    <img src="{% static 'background.jpg' %}" alt="">
+                    <div class="carousel-caption-news d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+                </div>
+                <div class="carousel-item-news">
+                    <img src="{% static 'background.jpg' %}" alt="">
+                    <div class="carousel-caption-news d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+                </div>
+                <div class="carousel-item-news">
+                    <img src="{% static 'background.jpg' %}" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+        <h5>Fourth slide label</h5>
+        <p>Some representative placeholder content for the fourth slide.</p>
+      </div>
+                </div>
+
+            </div>
+
+        </div>
+   </div>
+{% endblock carouselnews%}
+
+

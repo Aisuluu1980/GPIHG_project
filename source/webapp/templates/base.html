@@ -55,10 +55,11 @@
 
 
 <div class="container">
-{% block carousel %} {% endblock %}
-    {% block content %}{% endblock %}
-</div>
+{% block carousel %} {% endblock carousel %}
+{% block content %}{% endblock %}
 
+{% block carouselnews %} {% endblock carouselnews %}
+</div>
 <script src="{% static 'js/jquery.min.js' %}"></script>
 <script src="{% static 'js/popper.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
