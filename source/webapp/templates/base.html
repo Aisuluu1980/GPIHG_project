@@ -9,61 +9,113 @@
     <title>{% block title %}GPIH Group{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'js/jquery.min.js' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     {% block styles %}{% endblock %}
 </head>
-<header>
-
-  <div class="wrap-logo">
-    <p class="logo"><i class="fa fa-envelope" aria-hidden="true"></i>  admin@globalpactholdings.com</p>
- <!-- <a href="#logo" class="logo">Логотип сайта</a> -->
-  </div>
-  <nav>
-    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-  </nav>
+<body>
+<header class="header-media" style="height: 40px;">
+<div class="container">
+    <nav class="navbar navbar-expand-sm navbar-dark d-flex align-items-center">
+        <ul class="navbar-nav-media">
+        <p class="logo"><i class="fa fa-envelope" aria-hidden="true"></i>  admin@globalpactholdings.com</p>
+        </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="navbar-toggler-icon"></span>
+		    </button>
+		<ul class="navbar-nav-media ml-auto pb-2">
+		    <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="https://www.youtube.com/"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+		</ul>
+	</nav>
+</div>
 </header>
 
-
-<div class="container">
+<header class="header-menu bg-white">
+<div class="container bg-white">
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="static/logo.png" alt="" width="300" height="80">
-    </a>
+  <ul class="container-fluid">
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <img src="{% static 'logo.png' %}" alt="" width="300" height="80">
+
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-link" aria-hidden="true" aria-current="page" href="#">HOME</a>
+      <ul class="navbar-nav ml-auto">
+        <a class="nav-link" aria-hidden="true" href="#">HOME</a>
         <a class="nav-link" aria-hidden="true" href="#">ABOUT US</a>
-        <a class="nav-link" aria-hidden="true" href="#">INDUSTRIES</a>
-        <a class="nav-link" aria-hidden="true" href="#">PROJECTS</a>
+        <div class="dropdown">
+            <a class="nav-link" aria-hidden="true" href="#">INDUSTRIES</a>
+            <div class="dropdown-content">
+                <a href="#">Engineering and Construction</a>
+                <a href="#">Real Estate Development</a>
+                <a href="#">Oil and Gas</a>
+                <a href="{% url 'webapp:it_soft' %}">IT and Software Development</a>
+                <a href="#">Media and Advertising</a>
+                <a href="#">Project Managment and Financial Services</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="nav-link" aria-hidden="true" href="#">PROJECTS</a>
+            <div class="dropdown-content">
+                <a href="#">Ongoing Projects</a>
+                <a href="#">Project Archive</a>
+
+            </div>
+        </div>
         <a class="nav-link" aria-hidden="true" href="#">CLIENTS</a>
         <a class="nav-link" aria-hidden="true" href="#">CONTACT US</a>
-      </div>
-    </div>
-    {% block menu %}{% endblock %}
-  </div>
+      </ul>
+       {% block menu %}{% endblock %}
+  </ul>
 </nav>
 </div>
-
-
+</header>
 
 <div class="container">
-{% block carousel %} {% endblock carousel %}
-{% block content %}{% endblock %}
 
-{% block carouselnews %} {% endblock carouselnews %}
+{% block content %}{% endblock %}
 </div>
+
+{% block footer %}
+<div class="company_name mt-5 row justify-content-center">
+   <div class="col-sm-8 col-lg-4 mb-3">
+       <h6><span>ABOUT</span></h6>
+         <p>GlobalPact International Holdings Group Limited, a<br>multinational group owning various companies<br>
+             located in India, South Africa< GCC, UK and USA.</p>
+        <a href="#">Learn More</a>
+   </div>
+    <div class="col-sm-8 col-lg-4 mb-3">
+        <h6 class="ml-3"><span>CONTACT</span></h6>
+        <ul>
+            <li><a href="#">Mumbai</a></li>
+            <li><a href="#">Delhi</a></li>
+            <li><a href="#">UK</a></li>
+            <li><a href="#">GCC</a></li>
+        </ul>
+    </div>
+</div>
+<div class="container_footer">
+    <p style="font-size: small; padding-bottom: 15px;">Copyright &copy; 2021|GlobalPact International Holdings.All right reserved.</p>
+</div>
+{% endblock %}
+
+
+
 <script src="{% static 'js/jquery.min.js' %}"></script>
 <script src="{% static 'js/popper.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
 <script src="{% static 'js/main.js' %}"></script>
+<!--<script>
+  $(function () {
+    $('#myTab a:last').tab('show')
+  })
+</script> -->
+
 {% block scripts %}{% endblock %}
 </body>
 </html>
