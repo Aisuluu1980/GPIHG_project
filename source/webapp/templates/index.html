@@ -3,10 +3,6 @@
 
 {% block content %}
 
-<div id="back-to-top">
-  <i class="fa fa-chevron-up"></i>
-</div>
-
     <div class="carousel">
         <div id="main-carousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -34,9 +30,6 @@
         </div>
     </div>
 
-
-
-
 <h1><span>Latest Projects</span></h1>
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-4">
         {% for project in projects %}
@@ -55,8 +48,6 @@
     </div>
         {% endfor %}
 </div>
-
-
 
 <h2><span>Latest News</span></h2>
    <div id="carouselExampleIndicators" class="carousel slide pt-5" data-ride="carousel">
@@ -81,17 +72,32 @@
             {% endfor %}
         </div>
 
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="vis carousel-control-prev d-none" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="vis carousel-control-next d-none" href="#carouselExampleIndicators" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
         </div>
         <a href="#" class="btn btn-secondary bg-dark btn-lg disabled" tabindex="-1" role="button" aria-disabled="true" style="margin-top: 45px; padding: 15px;">CLICK TO CHECK ARCHIVE NEWS</a>
     </div>
+
+<div class="container">
+     <h1><span>Video</span></h1>
+    <div class="video mt-5">
+        <div class="thumb-wrap">
+  <iframe width="500" height="275" src="https://www.youtube.com/embed/ugL-W6da-9A?autoplay=1" title="YouTube video player"
+   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+   allowfullscreen></iframe>
+</div>
+       <!-- <video controls>
+        <source src="{% static 'video/KYRGYZSTAN.mp4' %}" type="video/mp4">
+        </video> -->
+    </div>
+</div>
+
 
 {% endblock %}
 

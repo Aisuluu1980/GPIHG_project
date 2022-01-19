@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-from django.views.generic import ListView
+from django.views.generic import ListView, TemplateView
 from webapp.models import Project, News
 
 class IndexView(ListView):
@@ -16,11 +16,12 @@ class IndexView(ListView):
 
         context.update({
             'news_list': News.objects.order_by('-created_at')[0:4]
-
-            # 'groups': StudyGroup.objects.all().order_by('name'),
-            # 'disciplines': Discipline.objects.all()
         })
         return context
 
     def get_queryset(self):
         return Project.objects.order_by('-created_date')[0:6]
+
+
+class AboutView(TemplateView):
+    template_name = 'about.html'

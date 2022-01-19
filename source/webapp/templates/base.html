@@ -46,17 +46,20 @@
       <span class="navbar-toggler-icon"></span>
     </button>
       <ul class="navbar-nav ml-auto">
-        <a class="nav-link" aria-hidden="true" href="#">HOME</a>
-        <a class="nav-link" aria-hidden="true" href="#">ABOUT US</a>
+        <a class="nav-link" aria-hidden="true" href="{% url 'webapp:index' %}">HOME</a>
+        <a class="nav-link" aria-hidden="true" href="{% url 'webapp:about' %}">ABOUT ERP</a>
         <div class="dropdown">
-            <a class="nav-link" aria-hidden="true" href="#">INDUSTRIES</a>
+            <a class="nav-link" aria-hidden="true" href="#">MANUFACTURING</a>
             <div class="dropdown-content">
-                <a href="#">Engineering and Construction</a>
-                <a href="#">Real Estate Development</a>
-                <a href="#">Oil and Gas</a>
-                <a href="{% url 'webapp:it_soft' %}">IT and Software Development</a>
-                <a href="#">Media and Advertising</a>
-                <a href="#">Project Managment and Financial Services</a>
+                <a href="{% url 'webapp:procurement' %}">Procurement</a>
+                <a href="{% url 'webapp:finance' %}">Finance and controlling</a>
+                <a href="{% url 'webapp:safety' %}">Safety</a>
+                <a href="{% url 'webapp:asset' %}">Asset</a>
+                <a href="{% url 'webapp:hr' %}">Human Resourses</a>
+                <a href="{% url 'webapp:document' %}">Document</a>
+                <a href="{% url 'webapp:mobile' %}">Mobile</a>
+                <a href="{% url 'webapp:migration' %}">Migration</a>
+                <a href="{% url 'webapp:customer' %}">Customer</a>
             </div>
         </div>
         <div class="dropdown">
@@ -78,6 +81,9 @@
 
 <div class="container">
 
+<div id="back-to-top">
+  <i class="fa fa-chevron-up"></i>
+</div>
 {% block content %}{% endblock %}
 </div>
 
@@ -104,17 +110,10 @@
 </div>
 {% endblock %}
 
-
-
 <script src="{% static 'js/jquery.min.js' %}"></script>
 <script src="{% static 'js/popper.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
 <script src="{% static 'js/main.js' %}"></script>
-<!--<script>
-  $(function () {
-    $('#myTab a:last').tab('show')
-  })
-</script> -->
 
 {% block scripts %}{% endblock %}
 </body>
