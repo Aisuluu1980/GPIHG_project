@@ -2,10 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="801d507f-7d1d-4694-8226-8ae5aa8a49c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/uploads/projects_images/banks.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/projects_images/cars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/projects_images/fabric.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/projects_images/milk.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/projects_images/project1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/projects_images/project_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/projects_images/project_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/projects_images/project_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/projects_images/project_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/projects_images/project_6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/main/settings/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/main/settings/local_settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/main/settings/production.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/main/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/main/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0002_news.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0003_news_created_at.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0004_auto_20220115_1256.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0005_project_created_date.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0006_auto_20220115_1402.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0007_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0008_auto_20220119_1308.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0009_auto_20220120_0657.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/foto1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/foto2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/foto3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/foto4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/no_foto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/static/video/KYRGYZSTAN.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/asset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/document.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/finance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/hr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/migration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/mobile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/procurement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/safety.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/views/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/views/industries_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/views/main_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/views/news_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/webapp/views/projects_views.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +182,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/webapp/models.py">
+        <entry file="file://$PROJECT_DIR$/webapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
@@ -136,10 +203,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/main/settings/production.py">
+        <entry file="file://$PROJECT_DIR$/main/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" selection-end-column="54" />
+              <caret line="142" selection-start-line="142" selection-end-line="142" selection-end-column="54" />
               <folding>
                 <element signature="e#303#312#0" expanded="true" />
               </folding>
@@ -151,7 +218,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -175,7 +242,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/webapp/admin.py">
+        <entry file="file://$PROJECT_DIR$/webapp/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
@@ -268,8 +335,7 @@
             </path>
             <path>
               <item name="GPIHG_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GPIHG_project" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -281,10 +347,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/settings" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -365,12 +431,12 @@
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1041" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25773746" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25773746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969433" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,7 +445,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32969433" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32969433" />
       <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32969433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -396,95 +462,95 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/webapp/static/js/main.js">
+    <entry file="file://$PROJECT_DIR$/webapp/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/industries/safety.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/industries/safety.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/industries/hr.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/industries/hr.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="11" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/industries/mobile.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/industries/mobile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="69" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/views/industries_views.py">
+    <entry file="file://$PROJECT_DIR$/webapp/views/industries_views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/industries/migration.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/industries/migration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/industries/finance.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/industries/finance.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/industries/asset.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/industries/asset.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/industries/customer.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/industries/customer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" lean-forward="true" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/industries/document.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/industries/document.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="8" lean-forward="true" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/about.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" lean-forward="true" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/industries/procurement.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/industries/procurement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="9" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/__init__.py">
+    <entry file="file://$PROJECT_DIR$/webapp/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/webapp/migrations/0009_auto_20220119_1525.py" />
-    <entry file="file://$PROJECT_DIR$/source/webapp/views/__init__.py">
+    <entry file="file://$PROJECT_DIR$/webapp/views/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="84" selection-start-column="84" selection-end-column="84" />
@@ -498,7 +564,7 @@
     <entry file="file://$PROJECT_DIR$/source/webapp/migrations/0010_auto_20220120_0653.py" />
     <entry file="file://$PROJECT_DIR$/source/webapp/migrations/0009_auto_20220119_1544.py" />
     <entry file="file://$PROJECT_DIR$/source/webapp/migrations/0009_auto_20220120_0655.py" />
-    <entry file="file://$PROJECT_DIR$/source/webapp/urls.py">
+    <entry file="file://$PROJECT_DIR$/webapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
@@ -508,7 +574,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/forms.py">
+    <entry file="file://$PROJECT_DIR$/webapp/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -518,52 +584,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/contact.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
           <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/views/main_views.py">
+    <entry file="file://$PROJECT_DIR$/webapp/views/main_views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/webapp/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="105" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt" />
     <entry file="file://$PROJECT_DIR$/venv/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/main/settings/__init__.py">
+    <entry file="file://$PROJECT_DIR$/main/settings/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/main/__init__.py">
+    <entry file="file://$PROJECT_DIR$/main/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/main/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/main/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -573,49 +639,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/webapp/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/main/settings/local_settings.py">
+    <entry file="file://$PROJECT_DIR$/main/settings/local_settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="139" column="22" lean-forward="true" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/migrations/0008_auto_20220119_1308.py">
+    <entry file="file://$PROJECT_DIR$/webapp/migrations/0008_auto_20220119_1308.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/migrations/0007_message.py">
+    <entry file="file://$PROJECT_DIR$/webapp/migrations/0007_message.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/migrations/0006_auto_20220115_1402.py">
+    <entry file="file://$PROJECT_DIR$/webapp/migrations/0006_auto_20220115_1402.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/migrations/0005_project_created_date.py">
+    <entry file="file://$PROJECT_DIR$/webapp/migrations/0005_project_created_date.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/migrations/0004_auto_20220115_1256.py">
+    <entry file="file://$PROJECT_DIR$/webapp/migrations/0004_auto_20220115_1256.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/migrations/0003_news_created_at.py">
+    <entry file="file://$PROJECT_DIR$/webapp/migrations/0003_news_created_at.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/migrations/__init__.py">
+    <entry file="file://$PROJECT_DIR$/webapp/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/migrations/0009_auto_20220120_0657.py">
+    <entry file="file://$PROJECT_DIR$/webapp/migrations/0009_auto_20220120_0657.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/models.py">
+    <entry file="file://$PROJECT_DIR$/webapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
@@ -632,7 +698,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/webapp/admin.py">
+    <entry file="file://$PROJECT_DIR$/webapp/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
@@ -656,10 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/main/settings/production.py">
+    <entry file="file://$PROJECT_DIR$/main/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" selection-end-column="54" />
+          <caret line="142" selection-start-line="142" selection-end-line="142" selection-end-column="54" />
           <folding>
             <element signature="e#303#312#0" expanded="true" />
           </folding>
@@ -669,7 +735,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
