@@ -1,6 +1,7 @@
+from . import views
 from django.urls import path
 from .views import IndexView, FinanceView, ProcurementView, SafetytView, HumanResoursesView, CustomerView, MobileView, DocumentView, MigrationView,\
-    AboutView, AssetView
+    AboutView, AssetView, ContactCreateView, success
 
 
 app_name = 'webapp'
@@ -8,6 +9,8 @@ app_name = 'webapp'
 urlpatterns = [
     path('', IndexView.as_view(), name='index'),
     path('about/', AboutView.as_view(), name='about'),
+    path('contact/', ContactCreateView.as_view(), name='contact'),
+    path('success/', success, name='success_page'),
     path('finance/', FinanceView.as_view(), name='finance'),
     path('procurement/', ProcurementView.as_view(), name='procurement'),
     path('safety/', SafetytView.as_view(), name='safety'),

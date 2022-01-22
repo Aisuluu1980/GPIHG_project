@@ -29,3 +29,14 @@ class News(models.Model):
     class Meta:
         verbose_name = 'News'
         verbose_name_plural = 'News'
+
+
+class Message(models.Model):
+    name=models.CharField(max_length=70, verbose_name='')
+    email=models.EmailField(max_length=70, blank=True, verbose_name='')
+    phone= models.CharField(max_length=30, blank=True, verbose_name='')
+    subject=models.CharField(max_length=400, blank=True, verbose_name='')
+    message=models.CharField(max_length=1000, blank=True, verbose_name='')
+
+    def __str__(self):
+        return self.name

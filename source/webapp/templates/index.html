@@ -31,10 +31,10 @@
     </div>
 
 <h1><span>Latest Projects</span></h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4 pt-4">
+    <div class="row g-4 pt-4">
         {% for project in projects %}
-    <div class="col col-3">
-    <h3 class="text-center p-4 font-weight-bold">{{project.name}}</h3>
+    <div class="col-12 col-sm-4 col-lg-4 mb-sm-4 mb-2">
+    <h3 class="text-center pb-4 font-weight-bold">{{project.name}}</h3>
         <div class="card h-80">
             {% if project.image %}
                 <img class="card-img h-50" src="{{ project.image.url }}" alt="{{project.name}}">
@@ -42,7 +42,7 @@
                 <img class="card-img" src="{% static 'no_foto.jpg' %}" alt="No foto!" />
             {% endif %}
         </div>
-        <div class="dnl text-center p-4">
+        <div class="dnl text-center pt-4">
             <a href="#" class="btn btn_1 btn-lg"><i class="fa fa-file-pdf"></i> Download brochure</a>
         </div>
     </div>
@@ -88,13 +88,10 @@
      <h1><span>Video</span></h1>
     <div class="video mt-5">
         <div class="thumb-wrap">
-  <iframe width="500" height="275" src="https://www.youtube.com/embed/ugL-W6da-9A?autoplay=1" title="YouTube video player"
+  <iframe width="500" height="275" src="https://www.youtube.com/embed/ugL-W6da-9A?autoplay=0" title="YouTube video player"
    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
    allowfullscreen></iframe>
 </div>
-       <!-- <video controls>
-        <source src="{% static 'video/KYRGYZSTAN.mp4' %}" type="video/mp4">
-        </video> -->
     </div>
 </div>
 
