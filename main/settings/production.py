@@ -17,7 +17,7 @@ DB_NAME = os.environ.get('DB_NAME')
 DB_PASSWORD = os.environ.get('DB_PASSWORD')
 DB_HOST = os.environ.get('DB_HOST')
 DB_USER = os.environ.get('DB_USER')
-# SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
 
@@ -30,12 +30,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'gy$d7!kb+p91l=&d87n0sy79v$_sxm6l($wh41yi*ku335r#y!'
+SECRET_KEY = SECRET_KEY     # 'gy$d7!kb+p91l=&d87n0sy79v$_sxm6l($wh41yi*ku335r#y!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['millerp.herokuapp.com',]
+ALLOWED_HOSTS = ['.herokuapp.com',]
 
 
 # Application definition
