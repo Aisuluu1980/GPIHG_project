@@ -2,77 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="801d507f-7d1d-4694-8226-8ae5aa8a49c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/uploads/projects_images/banks.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/projects_images/cars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/projects_images/fabric.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/projects_images/milk.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/projects_images/project1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/projects_images/project_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/projects_images/project_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/projects_images/project_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/projects_images/project_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/projects_images/project_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/main/settings/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/main/settings/local_settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/main/settings/production.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/main/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/main/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0002_news.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0003_news_created_at.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0004_auto_20220115_1256.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0005_project_created_date.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0006_auto_20220115_1402.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0007_message.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0008_auto_20220119_1308.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/0009_auto_20220120_0657.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/foto1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/foto2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/foto3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/foto4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/no_foto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/static/video/KYRGYZSTAN.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/asset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/customer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/document.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/finance.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/hr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/migration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/mobile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/procurement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/templates/industries/safety.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/views/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/views/industries_views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/views/main_views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/views/news_views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/webapp/views/projects_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/settings/production.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/projects_images/banks.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/projects_images/cars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/projects_images/fabric.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/projects_images/milk.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/projects_images/project1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/projects_images/project_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/projects_images/project_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/projects_images/project_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/projects_images/project_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/projects_images/project_6.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +55,20 @@
         <item name="db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="webapp_message: table" type="ffe0bd85:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="webapp_news: table" type="ffe0bd85:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
         <item name="webapp_project: table" type="ffe0bd85:SqliteImplModel$Table" />
       </path>
     </expand>
@@ -138,19 +95,23 @@
           <entry key="gitignore" value="3" />
           <entry key="html" value="32" />
           <entry key="js" value="5" />
-          <entry key="py" value="61" />
+          <entry key="json" value="1" />
+          <entry key="py" value="62" />
           <entry key="rnc" value="1" />
           <entry key="txt" value="11" />
+          <entry key="webapp_message" value="1" />
+          <entry key="webapp_news" value="1" />
           <entry key="webapp_project" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="9" />
-          <entry key="Database Element" value="1" />
+          <entry key="Database Element" value="3" />
+          <entry key="JSON" value="1" />
           <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="61" />
+          <entry key="Python" value="62" />
           <entry key="RNG Compact" value="1" />
           <entry key="Svelte" value="32" />
         </counts>
@@ -163,7 +124,7 @@
           <entry key="gitignore" value="17" />
           <entry key="html" value="21932" />
           <entry key="js" value="3" />
-          <entry key="py" value="3499" />
+          <entry key="py" value="3502" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
@@ -173,7 +134,7 @@
           <entry key="HTML" value="398" />
           <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="92" />
-          <entry key="Python" value="3499" />
+          <entry key="Python" value="3502" />
           <entry key="Svelte" value="21534" />
         </counts>
       </usages-collector>
@@ -181,11 +142,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state>
               <folding>
                 <element signature="e#1#29#0" expanded="true" />
               </folding>
@@ -194,19 +154,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://06cd2123-b2e8-4c5b-963a-53a4cc910caf/schema/main/table/webapp_project">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="142" selection-start-line="142" selection-end-line="142" selection-end-column="54" />
+            <state relative-caret-position="357">
+              <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
               <folding>
                 <element signature="e#303#312#0" expanded="true" />
               </folding>
@@ -214,11 +165,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mydata.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -233,10 +189,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/webapp/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -306,6 +265,7 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/source/Procfile" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/main/settings/production.py" />
       </list>
     </option>
   </component>
@@ -335,6 +295,29 @@
             </path>
             <path>
               <item name="GPIHG_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPIHG_project" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GPIHG_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPIHG_project" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GPIHG_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPIHG_project" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="projects_images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GPIHG_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPIHG_project" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GPIHG_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -346,7 +329,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main/settings" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -447,7 +430,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32969433" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32969433" />
-      <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32969433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -462,27 +445,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapp/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/templates/industries/safety.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/templates/industries/hr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="11" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/templates/industries/mobile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -570,16 +532,6 @@
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -681,33 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#1#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://06cd2123-b2e8-4c5b-963a-53a4cc910caf/schema/main/table/webapp_project">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -722,12 +647,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/settings/production.py">
+    <entry file="file://$PROJECT_DIR$/webapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="142" selection-start-line="142" selection-end-line="142" selection-end-column="54" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#303#312#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,7 +670,50 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/settings/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <element signature="e#303#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://06cd2123-b2e8-4c5b-963a-53a4cc910caf/schema/main/table/webapp_message">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06cd2123-b2e8-4c5b-963a-53a4cc910caf/schema/main/table/webapp_news">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://06cd2123-b2e8-4c5b-963a-53a4cc910caf/schema/main/table/webapp_project">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

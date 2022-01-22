@@ -1,0 +1,92 @@
+[
+{
+  "model": "webapp.project",
+  "pk": 1,
+  "fields": {
+    "name": "Car manufactoring",
+    "image": "projects_images/cars.png",
+    "created_date": "2022-01-22T19:10:50.805Z"
+  }
+},
+{
+  "model": "webapp.project",
+  "pk": 2,
+  "fields": {
+    "name": "Textile manufacturing",
+    "image": "projects_images/fabric.png",
+    "created_date": "2022-01-22T19:11:26.506Z"
+  }
+},
+{
+  "model": "webapp.project",
+  "pk": 3,
+  "fields": {
+    "name": "Dairy products",
+    "image": "projects_images/milk.jpeg",
+    "created_date": "2022-01-22T19:11:48.435Z"
+  }
+},
+{
+  "model": "webapp.project",
+  "pk": 4,
+  "fields": {
+    "name": "Rainbow Country",
+    "image": "projects_images/project_3.png",
+    "created_date": "2022-01-22T19:12:44.951Z"
+  }
+},
+{
+  "model": "webapp.project",
+  "pk": 5,
+  "fields": {
+    "name": "Rozihub",
+    "image": "projects_images/project_4.jpg",
+    "created_date": "2022-01-22T19:13:14.508Z"
+  }
+},
+{
+  "model": "webapp.project",
+  "pk": 6,
+  "fields": {
+    "name": "Global Business Park",
+    "image": "projects_images/project4.png",
+    "created_date": "2022-01-22T19:13:45.084Z"
+  }
+},
+{
+  "model": "webapp.news",
+  "pk": 1,
+  "fields": {
+    "title": "Artificial intelligence, the manufacturing industry, and a tidal wave of innovation. Working in the sector? Here\u2019s how AI could benefit you in the coming years.",
+    "text": "From assembly robots to automated warehouses \u2013 artificial intelligence (AI) and the manufacturing industry are a match made in heaven. And this just the beginning. According to a report by IDC, by 2021, 20 percent of leading manufacturers will rely on embedded intelligence (using AI, internet of things and blockchain applications) to automate processes and speed up execution times by up to 25 percent.",
+    "created_at": "2022-01-22T19:17:22.545Z"
+  }
+},
+{
+  "model": "webapp.news",
+  "pk": 2,
+  "fields": {
+    "title": "Artificial Intelligence and machine learning continue to be the greatest driving forces powering the manufacturing industry today.",
+    "text": "Over 60% of manufacturing companies have already adopted AI technology to increase operational efficiency, reduce downtime, and deliver high-quality products that meet unique consumer demands.\r\n\r\nAccording to Global AI in Manufacturing Market Trends, the market is projected to reach $16.7 billion by 2026, registering a CAGR of 57.2% during the forecast period.\r\n\r\nHere, we have compiled the 5 best applications of AI in electronics manufacturing that will shape the industry shortly.",
+    "created_at": "2022-01-22T19:18:13.323Z"
+  }
+},
+{
+  "model": "webapp.news",
+  "pk": 3,
+  "fields": {
+    "title": "Top 5 Uses Cases of Artificial Intelligence in the Manufacturing Industry",
+    "text": "The applications of AI in the field of manufacturing are widespread and revolutionary. It has radically changed how products are designed, offering actionable insights into each level of designing and manufacturing.\r\n\r\nThis helps identify bottlenecks, address the issues, and deliver flawless end products. Discussed here are the top 10 uses of Artificial Intelligence in manufacturing.",
+    "created_at": "2022-01-22T19:18:42.700Z"
+  }
+},
+{
+  "model": "webapp.news",
+  "pk": 4,
+  "fields": {
+    "title": "1. Helps Predict Failure in Designs",
+    "text": "Machinery failures are commonplace in the manufacturing industry, resulting in increased downtime, higher costs, and delayed time to market. Inability to detect failures in advance can even affect the quality and performance of end products.\r\n\r\nHere lies the importance of Artificial Intelligence in the field of manufacturing. Through predictive learning, AI enables identifying product or equipment failures well in advance to prevent major breakdowns in the future. This helps cut down downtime, reduce cost in idle time, and ensure improved productivity.",
+    "created_at": "2022-01-22T19:19:12.729Z"
+  }
+}
+]
