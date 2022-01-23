@@ -22,8 +22,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# BASE_DIR = Path(__file__).resolve().parent.parent.parent
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -35,7 +35,7 @@ SECRET_KEY = SECRET_KEY     # 'gy$d7!kb+p91l=&d87n0sy79v$_sxm6l($wh41yi*ku335r#y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.herokuapp.com',]
+ALLOWED_HOSTS = ['millerp.herokuapp.com',]
 
 
 # Application definition
@@ -67,7 +67,7 @@ ROOT_URLCONF = 'main.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR.joinpath('templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -140,14 +140,12 @@ USE_TZ = True
 # STATIC_ROOT  =   os.path.join(PROJECT_ROOT, 'staticfiles')
 
 STATIC_URL = '/static/'
-STATIC_ROOT  =   os.path.join(BASE_DIR, 'staticfiles')
-# STATIC_ROOT = BASE_DIR.joinpath('staticfiles')
+# STATIC_ROOT  =   os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = BASE_DIR.joinpath('staticfiles')
 
 
 
-# STATICFILES_DIRS = (
-#     os.path.join(PROJECT_ROOT, 'static'),
-# )
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
 MEDIA_URL = '/uploads/'
