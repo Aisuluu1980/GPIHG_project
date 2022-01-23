@@ -84,7 +84,7 @@
           <entry key="json" value="1" />
           <entry key="py" value="62" />
           <entry key="rnc" value="1" />
-          <entry key="txt" value="11" />
+          <entry key="txt" value="12" />
           <entry key="webapp_message" value="1" />
           <entry key="webapp_news" value="1" />
           <entry key="webapp_project" value="1" />
@@ -96,7 +96,7 @@
           <entry key="Database Element" value="3" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="5" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="PLAIN_TEXT" value="17" />
           <entry key="Python" value="62" />
           <entry key="RNG Compact" value="1" />
           <entry key="Svelte" value="32" />
@@ -140,7 +140,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1667">
@@ -148,6 +148,15 @@
               <folding>
                 <element signature="e#303#312#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -278,6 +287,11 @@
             <path>
               <item name="GPIHG_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="GPIHG_project" type="462c0819:PsiDirectoryNode" />
+              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GPIHG_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPIHG_project" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,19 +314,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/source" />
-      <recent name="$PROJECT_DIR$/source/main/settings" />
-      <recent name="$PROJECT_DIR$/source/main/setting" />
-      <recent name="$PROJECT_DIR$/source/upload" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/main/settings" />
       <recent name="$PROJECT_DIR$/source/webapp/static" />
       <recent name="$PROJECT_DIR$/source/webapp/static/video" />
       <recent name="$PROJECT_DIR$/source/webapp/static/js" />
       <recent name="$PROJECT_DIR$/source/webapp/static/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/source" />
+      <recent name="$PROJECT_DIR$/source/main/settings" />
+      <recent name="$PROJECT_DIR$/source/main/setting" />
+      <recent name="$PROJECT_DIR$/source/upload" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -376,9 +390,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1041" extended-state="7" />
+    <frame x="0" y="-1" width="1920" height="1041" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26040554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26040554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -392,7 +407,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3286026" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3286026" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32969433" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32969433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -590,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mydata.json" />
     <entry file="das://06cd2123-b2e8-4c5b-963a-53a4cc910caf/schema/main/table/webapp_message">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -670,6 +678,13 @@
           <folding>
             <element signature="e#303#312#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
