@@ -36,11 +36,12 @@
     <div class="col-12 col-sm-4 col-lg-4 mb-sm-4 mb-2">
     <h3 class="text-center pb-4 font-weight-bold">{{project.name}}</h3>
         <div class="card h-80">
-            {% if project.image %}
+                <img class="card-img h-50" src="{%static 'cars.png' %}" alt="{{project.name}}">
+         <!-- {% if project.image %}
                 <img class="card-img h-50" src="{{ project.image.url }}" alt="{{project.name}}">
             {% else %}
                 <img class="card-img" src="{% static 'no_foto.jpg' %}" alt="No foto!" />
-            {% endif %}
+            {% endif %} -->
         </div>
         <div class="dnl text-center pt-4">
             <a href="#" class="btn btn_1 btn-lg"><i class="fa fa-file-pdf"></i> Download brochure</a>
