@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="801d507f-7d1d-4694-8226-8ae5aa8a49c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/settings/production.py" afterDir="false" />
-    </list>
+    <list default="true" id="801d507f-7d1d-4694-8226-8ae5aa8a49c4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,7 @@
           <entry key="gitignore" value="17" />
           <entry key="html" value="21932" />
           <entry key="js" value="3" />
-          <entry key="py" value="3540" />
+          <entry key="py" value="3541" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
@@ -123,7 +120,7 @@
           <entry key="HTML" value="398" />
           <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="92" />
-          <entry key="Python" value="3540" />
+          <entry key="Python" value="3541" />
           <entry key="Svelte" value="21534" />
         </counts>
       </usages-collector>
@@ -146,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="17">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding>
                 <element signature="e#303#312#0" expanded="true" />
               </folding>
@@ -669,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="17">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
             <element signature="e#303#312#0" expanded="true" />
           </folding>

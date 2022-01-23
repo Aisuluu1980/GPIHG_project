@@ -33,9 +33,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = SECRET_KEY     # 'gy$d7!kb+p91l=&d87n0sy79v$_sxm6l($wh41yi*ku335r#y!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["millerp.herokuapp.com"]
 
 
 # Application definition
@@ -141,7 +141,7 @@ USE_TZ = True
 # STATIC_ROOT  =   os.path.join(PROJECT_ROOT, 'staticfiles')
 
 STATIC_URL = '/static/'
-STATIC_ROOT  =   os.path.join(BASE_DIR, 'static')
+STATIC_ROOT  =   os.path.join(BASE_DIR, 'staticfiles')
 # STATIC_ROOT = BASE_DIR.joinpath('staticfiles')
 
 
@@ -167,3 +167,42 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # EMAIL_HOST_USER = 'user@gmail.com'
 # EMAIL_HOST_PASSWORD = 'password'
 # EMAIL_USE_TLS = True
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': ('%(asctime)s [%(process)d] [%(levelname)s] '
+                       'pathname=%(pathname)s lineno=%(lineno)s '
+                       'funcname=%(funcName)s %(message)s'),
+            'datefmt': '%Y-%m-%d %H:%M:%S'
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        }
+    },
+    'handlers': {
+        'null': {
+            'level': 'DEBUG',
+            'class': 'logging.NullHandler',
+        },
+        'console': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose'
+        }
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'django.request': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': False,
+        },
+    }
+}
